@@ -1,3 +1,59 @@
-#2Gather_title {
-  color: blue;
+#big2 {
+    color: rgba(55,140,250,0.76);
+    font-family: 'Londrina Outline', cursive;
+    font-size: 120px;
+    margin-left: 3%;
+    float: left;
+}
+
+#bigGather {
+
+    color: rgba(21, 182, 43, 0.76);
+    font-family: 'Londrina Outline', cursive;
+    font-size: 120px;
+    float: left;
+}
+
+#splashBranch1 {
+    height: 435px;
+    width: 105%;
+}
+
+#splashBranchText {
+    font-family: 'Indie Flower', cursive;
+    font-size: 210%;
+    float: right;
+    margin: 6%;
+}
+
+#splashGallery {
+    height: 430px;
+    width: 80%;
+    border: solid black 4px;
+    margin: auto;
+    margin-top: 9%;
+}
+
+#splashWelcome {
+    border: solid black 4px;
+    height: 200px;
+    width: 40%;
+    float: left;
+    margin-left: 9.5%;
+    margin-top: 5%
+}
+
+.splashText {
+    font-family: 'Bubbler One', sans-serif;
+    text-align: center;
+    font-size: 250%;
+}
+
+#splashFeatures {
+    border: solid black 4px;
+    height: 200px;
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 5%
 }
