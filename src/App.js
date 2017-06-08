@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+var FaLeaf = require('react-icons/lib/fa/leaf');
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-
 
                 <div>
                     <span id="big2">
@@ -14,17 +14,12 @@ class App extends Component {
                     <span id="bigGather">
                         Gather
                     </span>
-                    <a href={this.props.url}>{this.props.text}</a>
                     <span id="splashBranchText">
                         A powerful yet simple event planner.
                     </span>
-                    <img id="splashBranch1"
+                    <img id="splashBranch1" alt="tree"
                          src="http://clipart.pd4pic.com/images/branch-with-leaves-clipart-1.jpg"></img>
                 </div>
-
-                {/*<div id="splashGallery">*/}
-                    {/*Pictures will go here, ya?*/}
-                {/*</div>*/}
 
                 <div id="splashWelcome">
                     <div className="splashText">
@@ -35,12 +30,31 @@ class App extends Component {
                     </div>
                 </div>
                 <div id="splashFeatures">
-                    <i classname="fa fa-leaf" aria-hidden="true"> </i>
-                    Plan an event
+                    <div className="splashText">
+                        <div>
+                            <FaLeaf/>
+                            Organize Events
+                        </div>
+                        <div>                           <FaLeaf/>
+                            Manage Lists
+                        </div>
+                        <div>
+                            <FaLeaf/>
+                            Communicate with Guests
+                        </div>
+                        <div>
+                            <FaLeaf/>
+                            Sync your Calender with Google
+                        </div>
+
+
+
                 </div>
 
-
             </div>
+
+
+    </div>
 
 
     );

@@ -55,3 +55,7 @@
     margin-right: 5%;
     margin-top: 5%
 }
+
+ul.leaf {
+    list-style-image: url('/img/leaf.png');
+}
