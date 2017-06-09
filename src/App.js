@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-var FaLeaf = require('react-icons/lib/fa/leaf');
+// var FaLeaf = require('react-icons/lib/fa/leaf');
 
 class App extends Component {
     render() {
@@ -23,7 +23,7 @@ class App extends Component {
 
                 <div id="splashWelcome">
                     <div className="splashText">
-                        Welcome to 2Gather!
+                        Welcome to <span id="small2">2</span><span id="smallGather">Gather</span>!
                     </div>
                     <div className="splashText">
                         Plan events, coordinate details, and centralize your event planning needs in a convenient and easy to use tool.
@@ -31,21 +31,29 @@ class App extends Component {
                 </div>
                 <div id="splashFeatures">
                     <div className="splashText">
-                        <div>
-                            <FaLeaf/>
-                            Organize Events
-                        </div>
-                        <div>                           <FaLeaf/>
-                            Manage Lists
-                        </div>
-                        <div>
-                            <FaLeaf/>
-                            Communicate with Guests
-                        </div>
-                        <div>
-                            <FaLeaf/>
-                            Sync your Calender with Google
-                        </div>
+                        {/*<div>*/}
+                            {/*<FaLeaf/>*/}
+                            {/*<span className="featuresList"> Organize Events </span>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                            {/*<FaLeaf/>*/}
+                            {/*<span className="featuresList"> Manage Checklists</span>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                            {/*<FaLeaf/>*/}
+                            {/*<span className="featuresList"> Synchronize Calenders </span>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                            {/*<FaLeaf/>*/}
+                            {/*<span className="featuresList"> Communicate with Friends and Family </span>*/}
+                        {/*</div>*/}
+
+                        <ul className="leaf">
+                            <li>Item</li>
+                            <li>Item111</li>
+                            <li>Item111111</li>
+                            <li>Item11</li>
+                        </ul>
 
 
 

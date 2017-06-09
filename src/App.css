@@ -38,7 +38,7 @@
     height: 400px;
     width: 40%;
     float: left;
-    margin-left: 9.5%;
+    margin-left: 7.5%;
     margin-top: 5%
 }
 
@@ -46,16 +46,30 @@
     font-family: 'Bubbler One', sans-serif;
     text-align: center;
     font-size: 250%;
+    float: left;
 }
 
 #splashFeatures {
     height: 200px;
     width: 40%;
     float: left;
-    margin-right: 5%;
-    margin-top: 5%
+    margin-left: 10%;
 }
 
 ul.leaf {
-    list-style-image: url('/img/leaf.png');
+    list-style-image: url('http://i.imgur.com/QadaLZO.png');
+}
+
+.featuresList {
+    margin: 2%;
+}
+
+#small2 {
+    color: rgba(55,140,250,0.76);
+
+}
+
+#smallGather {
+    color: rgba(21, 182, 43, 0.76);
+
 }
