@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 // var FaLeaf = require('react-icons/lib/fa/leaf');
 
-class App extends Component {
+class App extends React.Component {
     render() {
         return (
             <div className="App">
-
                 <div>
                     <span id="big2">
                         2
