@@ -10,7 +10,6 @@ class LoginButton extends React.Component{
     }
 }
 
-
 class App extends React.Component {
     render(
     ) {
