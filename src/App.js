@@ -1,9 +1,19 @@
 import React from 'react';
 import './App.css';
 // var FaLeaf = require('react-icons/lib/fa/leaf');
+class LoginButton extends React.Component{
+    render(
+    ){ return (
+        <button>Something</button>
+        )
+
+    }
+}
+
 
 class App extends React.Component {
-    render() {
+    render(
+    ) {
         return (
             <div className="App">
                 <div>
@@ -30,28 +40,12 @@ class App extends React.Component {
                 </div>
                 <div id="splashFeatures">
                     <div className="splashText">
-                        {/*<div>*/}
-                            {/*<FaLeaf/>*/}
-                            {/*<span className="featuresList"> Organize Events </span>*/}
-                        {/*</div>*/}
-                        {/*<div>*/}
-                            {/*<FaLeaf/>*/}
-                            {/*<span className="featuresList"> Manage Checklists</span>*/}
-                        {/*</div>*/}
-                        {/*<div>*/}
-                            {/*<FaLeaf/>*/}
-                            {/*<span className="featuresList"> Synchronize Calenders </span>*/}
-                        {/*</div>*/}
-                        {/*<div>*/}
-                            {/*<FaLeaf/>*/}
-                            {/*<span className="featuresList"> Communicate with Friends and Family </span>*/}
-                        {/*</div>*/}
 
                         <ul className="leaf">
-                            <li>Item</li>
-                            <li>Item111</li>
-                            <li>Item111111</li>
-                            <li>Item11</li>
+                            <li>Event Scheduling</li>
+                            <li>Syncing Calenders</li>
+                            <li>Sharing lists</li>
+                            <li>People: connected</li>
                         </ul>
 
 
@@ -76,3 +70,4 @@ class App extends React.Component {
 
 
 export default App;
+
